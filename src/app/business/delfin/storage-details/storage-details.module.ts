@@ -15,7 +15,7 @@ import { SharesComponent } from '../shares/shares.component';
 import { QuotasComponent } from '../quotas/quotas.component';
 import { HttpService } from '../../../shared/api';
 import { ProfileService } from '../../profile/profile.service';
-import { AvailabilityZonesService } from '../../resource/resource.service';
+import { AvailabilityZonesService } from '../../infrastructure/infrastructure.service';
 import { DelfinService } from '../delfin.service';
 import { TabViewModule, PanelModule, DataTableModule, ChartModule, InputSwitchModule, OverlayPanelModule, CardModule, InputTextModule, CheckboxModule, ButtonModule, SplitButtonModule, DropdownModule, MultiSelectModule, DialogModule, Message, GrowlModule, SpinnerModule, FormModule } from '../../../components/common/api';
 import { TooltipModule } from '../../../components/tooltip/tooltip';
